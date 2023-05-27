@@ -21,6 +21,6 @@ public class IntroActivity extends AppCompatActivity {
 
     private void initView() {
         startBtn=findViewById(R.id.startBtn);
-        startBtn.setOnClickListener(v -> startActivity(new Intent(IntroActivity.this,Main2Activity.class)));
+        startBtn.setOnClickListener(v -> startActivity(new Intent(IntroActivity.this,MainActivity.class)));
     }
 }
