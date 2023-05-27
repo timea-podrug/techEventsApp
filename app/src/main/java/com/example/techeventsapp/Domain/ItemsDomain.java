@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class ItemsDomain implements Serializable {
     private String title;
-    private String adress;
+    private String date;
     private String description;
     private String topic;
 
@@ -16,12 +16,12 @@ public class ItemsDomain implements Serializable {
         this.title = title;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getDate() {
+        return date;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public String getDescription() {
@@ -77,14 +77,18 @@ public class ItemsDomain implements Serializable {
     private String pic;
     private boolean wifi;
 
-    public ItemsDomain(String title, String adress, String description, String topic, String person, int price, String pic, boolean wifi) {
+
+    public ItemsDomain(String title, String date, String description, String topic, String person, int price, String pic, boolean wifi) {
         this.title = title;
-        this.adress = adress;
+        this.date = date;
         this.description = description;
         this.topic = topic;
         this.person = person;
         this.price = price;
         this.pic = pic;
         this.wifi = wifi;
+        this.date = date;
     }
+
+
 }

@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue">
+    android:background="#171717">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="500dp"
+        android:layout_width="570dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="-110dp"
         android:layout_marginTop="-250dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/techevent" />
+        app:srcCompat="@drawable/tech_event2" />
 
     <TextView
         android:id="@+id/textView"
@@ -21,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="-50dp"
-        android:text="Find the best Tech Event \n for you"
+        android:text="Find the best Tech Event \nfor you"
         android:textColor="@color/white"
         android:textSize="30dp"
         android:textStyle="bold"
@@ -33,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="All Tech Events near you"
+        android:text="We learn together"
         android:textColor="@color/white"
         android:textSize="16dp"
         app:layout_constraintStart_toStartOf="@+id/textView"
