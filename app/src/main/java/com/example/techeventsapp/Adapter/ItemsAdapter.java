@@ -46,9 +46,9 @@ Context context;
         holder.dateText.setText(items.get(position).getDate());
         holder.priceText.setText(String.format("€" + formatter.format(items.get(position).getPrice())));
 
-        int drawableResouceId=holder.itemView.getResources().getIdentifier(items.get(position).getPic(),"drawable",holder.itemView.getContext().getPackageName());
+        int drawableResourceId=holder.itemView.getResources().getIdentifier(items.get(position).getPic(),"drawable",holder.itemView.getContext().getPackageName());
         Glide.with(holder.itemView.getContext())
-                .load(drawableResouceId)
+                .load(drawableResourceId)
                 .into(holder.pic);
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {

@@ -6,12 +6,18 @@
     android:layout_height="match_parent"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context=".activities.MainActivity">
+    tools:context=".activities.MainActivity"
+
+
+    >
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/beige"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,7 +44,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:text="Welcome back"
-                    android:textColor="#000000"
+                    android:textColor="@color/blue"
                     android:textSize="16dp"
                     app:layout_constraintStart_toEndOf="@+id/imageView3"
                     app:layout_constraintTop_toTopOf="@+id/imageView3" />
@@ -48,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Timea Podrug"
-                    android:textColor="#000000"
+                    android:textColor="@color/blue"
                     android:textSize="27sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView3"
@@ -81,6 +87,7 @@
                 android:inputType="textPersonName"
                 android:padding="8dp"
                 android:text="Name"
+                android:textColor="@color/beige"
                 android:textStyle="italic" />
 
             <LinearLayout
@@ -106,7 +113,7 @@
                             android:id="@+id/imageView4"
                             android:layout_width="60dp"
                             android:layout_height="100dp"
-                            android:layout_marginEnd="8dp"
+                            android:layout_marginEnd="4dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
@@ -118,7 +125,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
                             android:text="Meetups"
-                            android:textColor="#000000"
+                            android:textColor="@color/beige"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -149,7 +156,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
                             android:text="Lectures"
-                            android:textColor="#000000"
+                            android:textColor="@color/beige"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -161,7 +168,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    >
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="0dp"
@@ -169,6 +177,7 @@
                         android:layout_marginStart="32dp"
                         android:layout_marginEnd="8dp"
                         android:layout_weight="0.5"
+
                         android:background="@drawable/event_background">
 
                         <ImageView
@@ -187,7 +196,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
                             android:text="Confrences"
-                            android:textColor="#000000"
+                            android:textColor="@color/beige"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -218,7 +227,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
                             android:text="Panels"
-                            android:textColor="#000000"
+                            android:textColor="@color/beige"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -241,7 +250,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Soon"
-                    android:textColor="@color/black"
+                    android:textColor="@color/blue"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -252,7 +261,7 @@
                     android:layout_weight="1"
                     android:text="See All"
                     android:textAlignment="viewEnd"
-                    android:textColor="#fe6900"
+                    android:textColor="@color/red"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -279,7 +288,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="New"
-                    android:textColor="@color/black"
+                    android:textColor="@color/blue"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -290,7 +299,7 @@
                     android:layout_weight="1"
                     android:text="See All"
                     android:textAlignment="viewEnd"
-                    android:textColor="#fe6900"
+                    android:textColor="@color/red"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -298,11 +307,11 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/viewNew"
                 android:layout_width="match_parent"
-                android:layout_height="12dp"
-                android:layout_marginBottom="70dp"
+                android:layout_height="match_parent"
                 android:clipToPadding="false"
                 android:paddingStart="24dp"
-                android:paddingEnd="24dp" />
+                android:paddingEnd="24dp"
+                android:layout_marginBottom="70dp"/>
         </LinearLayout>
     </ScrollView>
 
@@ -320,7 +329,7 @@
         app:fabCradleMargin="8dp"
         app:fabCradleRoundedCornerRadius="50dp"
         app:fabCradleVerticalOffset="6dp"
-        >
+        android:backgroundTint="@color/blue">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -364,8 +373,8 @@
 
                 <ImageView
                     android:id="@+id/imageView11"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
+                    android:layout_width="18dp"
+                    android:layout_height="63dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:visibility="invisible"
