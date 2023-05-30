@@ -90,7 +90,6 @@
                 android:hint="Searching for..."
                 android:inputType="textPersonName"
                 android:padding="8dp"
-                android:text="Name"
                 android:textColor="@color/beige"
                 android:textStyle="italic" />
 
