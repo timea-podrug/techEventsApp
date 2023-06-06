@@ -2,7 +2,7 @@
 
 The Tech Events App is a Java-based Android application that allows users to discover and explore various tech events, conferences, and lectures in the IT industry. With this app, users can stay updated on the latest tech happenings, find relevant events in their area, and access detailed information about each event.
 
-![techEventsAppScreenshot](https://github.com/timea-podrug/techEventsApp/assets/108535463/6155f74f-f38f-449f-a138-b5956389df3c)
+![techEventsAppScreenshot](https://github.com/timea-podrug/techEventsApp/assets/108535463/6155f74f-f38f-449f-a138-b5956389df3c){:height="200px" width="100px"}
 
 ## Features
 
