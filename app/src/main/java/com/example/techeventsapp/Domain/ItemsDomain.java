@@ -12,7 +12,7 @@ public class ItemsDomain implements Serializable {
     private boolean food;
     private int price;
 
-    public ItemsDomain(String s, String s1, String s2, String just_chilling, String nikolina_kukoč, int i, String pic1, boolean b) {
+    public ItemsDomain(String s, String s1, String s2, String just_chilling, String nikolina_kukoc, int i, String pic1, boolean b) {
     }
 
     public boolean isWifi() {
