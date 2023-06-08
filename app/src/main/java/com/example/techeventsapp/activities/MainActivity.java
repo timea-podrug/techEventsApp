@@ -35,7 +35,7 @@ private RecyclerView recyclerViewSoon,recyclerViewNew;
 
         ItemsArrayList.add(new ItemsDomain("Green Future Conference"," 1. i 2.6.2023. ","The Green Future Conference in Split brings together \n international and domestic technology leaders, companies, institutions, decision makers,\n scientists and other stakeholders from the sustainable development sector.\n" +
                  "\n"+
-                "The aim of this conference is to position \n Croatia and Split on the world map of events \n when talking about sustainability, green transition and new technologies.","New Technologies, green future","multiple",150,"pic2",true,true,true));
+                "The aim of this conference is to position \n Croatia and Split on the world map of events \n when talking about sustainability, green transition and new technologies.","New Technologies, green future","multiple",150,"pic22",true,true,true));
 
         ItemsArrayList.add(new ItemsDomain("BlockSplit","23,24,25.5.2023","Meet web3 startups, developers, researchers, investors,\n designers and more from all over the world","AI","multiple",60,"pic3",true,true,true));
         recyclerViewSoon=findViewById(R.id.viewSoon);
