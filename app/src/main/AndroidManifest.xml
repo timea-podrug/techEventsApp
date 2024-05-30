@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TechEventsApp"
         tools:targetApi="31">
+<<<<<<< HEAD
         <activity android:name=".activities.SignUpActivity"/>
+=======
+>>>>>>> fc4498323e9a1cba19115dae6aa930bcc7f79fe6
         <activity
             android:name=".activities.DetailsActivity"
             android:exported="false" />
@@ -23,7 +26,10 @@
         <activity
             android:name=".activities.IntroActivity"
             android:exported="true">
+<<<<<<< HEAD
 
+=======
+>>>>>>> fc4498323e9a1cba19115dae6aa930bcc7f79fe6
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

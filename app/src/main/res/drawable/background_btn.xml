@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Background for Button -->
 <selector xmlns:android="http://schemas.android.com/apk/res/android"
     >
@@ -13,4 +14,14 @@
             <corners android:radius="8dp"/>
         </shape>
     </item>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="rectangle">
+        <corners android:radius="10dp"></corners>
+        <solid android:color="@color/red"></solid>
+    </shape>
+</item>
+>>>>>>> fc4498323e9a1cba19115dae6aa930bcc7f79fe6
 </selector>

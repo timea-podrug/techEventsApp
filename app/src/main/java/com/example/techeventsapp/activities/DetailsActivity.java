@@ -2,9 +2,13 @@ package com.example.techeventsapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+=======
+import android.os.Bundle;
+>>>>>>> fc4498323e9a1cba19115dae6aa930bcc7f79fe6
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -18,7 +22,10 @@ public class DetailsActivity extends AppCompatActivity {
     private TextView titleText,dateText,wifiText,foodText,drinkText,descriptionText,priceText;
     private ItemsDomain item;
     private ImageView pic;
+<<<<<<< HEAD
     private Button btn;
+=======
+>>>>>>> fc4498323e9a1cba19115dae6aa930bcc7f79fe6
     DecimalFormat formatter=new DecimalFormat("###,###,###.##");
 
     @Override
@@ -75,7 +82,10 @@ public class DetailsActivity extends AppCompatActivity {
         descriptionText=findViewById(R.id.descriptionText);
         pic=findViewById(R.id.pic);
         priceText=findViewById(R.id.priceText);
+<<<<<<< HEAD
         btn=findViewById(R.id.button);
         btn.setOnClickListener(v -> startActivity(new Intent(DetailsActivity.this,SignUpActivity.class)));
+=======
+>>>>>>> fc4498323e9a1cba19115dae6aa930bcc7f79fe6
     }
 }
