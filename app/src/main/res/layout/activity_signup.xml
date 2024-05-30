@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002244"
+    android:padding="16dp"
+    tools:context=".activities.SignUpActivity">
+
+    <!-- Top Image -->
+
+    <!-- Title -->
+
+    <!-- Date -->
+
+    <!-- Divider Line -->
+
+    <!-- Category Icons -->
+
+    <!-- EditText for Name -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Enter your name"
+
+        android:padding="12dp"
+        android:textColor="#FFFFFF" />
+
+    <!-- CheckBox -->
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"
+        android:text="I am 18 or older"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"/>
+
+    <!-- RadioGroup -->
+    <RadioGroup
+        android:id="@+id/radioGroupStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox18"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonPupil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pupil"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"/>
+    </RadioGroup>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupStatus"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:padding="12dp"
+        android:text="Submit"
+        android:textColor="@android:color/white" />
+
+
+
+
+</RelativeLayout>
+
